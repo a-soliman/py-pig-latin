@@ -31,3 +31,4 @@ for word in words:
 new_string = ' '.join(new_words)
 
 # OUTPUT THE FINAL STRING
+print(new_string)

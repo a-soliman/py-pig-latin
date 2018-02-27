@@ -19,11 +19,11 @@ for word in words:
 		for i in range(0, len(word)) :
 
 			if word[i] not in 'aeiou':
-				temp_word = temp_word + word[i]
-				#print('temp: ', temp_word)
-			else:
 				
-				#print('word[i]: ', word[i])
+				temp_word = temp_word + word[i]
+
+			else:
+
 				new_words.append(word[i:] + temp_word + 'ay')
 				break
 

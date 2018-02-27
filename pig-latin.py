@@ -2,6 +2,7 @@
 sentence = input('Please provide a sentence to convert: ').strip()
 
 # SPLIT SENTENCE INTO WORDS
+words = sentence.split()
 
 # LOOP THROUGH WORDS AND CONVERT THEM INTO PIG-LATIN
 

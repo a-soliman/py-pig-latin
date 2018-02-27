@@ -1,4 +1,5 @@
 # GET SENTENCE FROM USER
+sentence = input('Please provide a sentence to convert: ').strip()
 
 # SPLIT SENTENCE INTO WORDS
 

@@ -27,7 +27,7 @@ for word in words:
 				new_words.append(word[i:] + temp_word + 'ay')
 				break
 
-print(new_words)
 # STICK THE WORDS BACK TOGETHER INTO SENTENCE
+new_string = ' '.join(new_words)
 
 # OUTPUT THE FINAL STRING
